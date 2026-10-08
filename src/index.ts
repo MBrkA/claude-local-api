@@ -5,7 +5,7 @@ import { Env } from "@/utils/env";
 function startServer(): void {
   const app = createApp();
 
-  const server = app.listen(Env.port, () => {
+  const server = app.listen(Env.port, Env.host, () => {
     logger.info(`Server running in ${Env.environment} mode`);
     logger.info(`Listening on http://${Env.host}:${Env.port}`);
     logger.info(`API endpoint: http://${Env.host}:${Env.port}${Env.apiPrefix}/v1`);
