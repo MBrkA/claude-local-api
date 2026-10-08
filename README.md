@@ -105,3 +105,7 @@ Routes are declared with a `createRoute` helper (`src/utils/create-route.ts`) th
 - `npm run type-check` — type-check without emitting
 - `npm run lint` / `npm run lint:fix` — lint
 - `npm run format` — format with Prettier
+
+## License
+
+MIT, see [LICENSE](LICENSE).
